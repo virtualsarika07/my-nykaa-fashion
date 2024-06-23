@@ -96,11 +96,11 @@ header {
 }
 
 .owl-nav button.owl-prev {
-    left: -25px; /* Adjust as needed */
+    left: -25px; 
 }
 
 .owl-nav button.owl-next {
-    right: -25px; /* Adjust as needed */
+    right: -25px; 
 }
 
 .celeb-pic {
