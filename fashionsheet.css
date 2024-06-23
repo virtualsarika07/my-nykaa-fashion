@@ -1,0 +1,124 @@
+body {
+    margin: auto;
+}
+
+header {
+    height: 60px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    margin: 0 30px;
+}
+
+.nykaa-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nykaa-logo img {
+    width: 108px;
+    height: 28px;
+}
+
+.main-pic {
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    background-image: url("images/new-first-one.PNG");
+}
+
+.diff-types {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.text-style {
+    margin-right: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.search-container {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.type-of-cloth-container {
+    height: 206px;
+    margin: 23px 45px;
+}
+.owl-carousel .owl-item .option-img{
+    width:78%;
+}
+.item  {
+    .option-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   
+    margin: 0 auto;}
+}
+
+.item {
+    text-align: center;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.owl-nav button {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.owl-nav button.owl-prev {
+    left: -25px; /* Adjust as needed */
+}
+
+.owl-nav button.owl-next {
+    right: -25px; /* Adjust as needed */
+}
+
+.celeb-pic {
+    margin: 0 45px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    background-image: url("images/celeb.PNG");
+}
+
+.global-style {
+    border: 2px solid red;
+    height: 300px;
+    margin: 0 45px;
+    display: flex;
+}
+
+footer {
+    border: 2px solid orange;
+    height: 300px;
+}
