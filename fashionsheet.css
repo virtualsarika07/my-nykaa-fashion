@@ -57,6 +57,7 @@ header {
 .type-of-cloth-container {
     height: 206px;
     margin: 23px 45px;
+    position: relative;
 }
 .owl-carousel .owl-item .option-img{
     width:78%;
@@ -102,7 +103,10 @@ header {
 .owl-nav button.owl-next {
     right: -25px; 
 }
-
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    border-radius: 50%;
+    background: white;
+}
 .celeb-pic {
     margin: 0 45px;
     height: 450px;
