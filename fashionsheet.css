@@ -152,13 +152,55 @@ header {
 }
 
 .global-style {
-    border: 2px solid red;
-    height: 300px;
-    margin: 0 45px;
     display: flex;
+    justify-content: space-between;
+    margin: 24px 45px;
 }
 
+.collection-item {
+    position: relative;
+    width: 32%;
+}
+
+.collection-item img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.explore-btn {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.explore-btn i {
+    margin-left: 0.5rem;
+}
 footer {
     border: 2px solid orange;
-    height: 300px;
+    height: 45px;
+    background: #fd7685;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
 }
