@@ -43,7 +43,9 @@ header {
     right: 10px;
     color: #ddd;
 }
-
+.account-cart-container{
+    display: flex;
+}
 .account, .wishlist, .cart {
     display: flex;
     align-items: center;
@@ -80,15 +82,7 @@ header {
     font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* .search-container {
-    margin-left: auto;
-    margin-right: 20px;
-}
 
-.account {
-    display: flex;
-    align-items: center;
-} */
 
 .type-of-cloth-container {
     height: 206px;
@@ -193,8 +187,139 @@ header {
 .explore-btn i {
     margin-left: 0.5rem;
 }
+.hidden-gems-container {
+    background-color: rgb(193, 156, 16);
+    height: 500px;
+   
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hidden-gem {
+    position: relative;
+    width: 60%;
+}
+
+.hidden-gem img {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+   
+}
+
+.hidden-gem-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: left;
+}
+
+.hidden-gem-text h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hidden-gem-text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.hidden-gem-text .explore-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.right-hidden-gem {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    height:100%;
+}
+
+.gem-item {
+    width: 48%;
+    text-align: center;
+}
+
+.gem-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width:135px;
+}
+
+.gem-item p {
+    margin: 10px 0 0;
+    color: white;
+    font-weight: bold;
+}
+.popular-brands {
+    margin: 24px 45px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid brown;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.in-spotlight {
+    color: rgb(92, 104, 115);
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.comfortable-finds {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.type-of.brand {
+    width: 18%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.option-img {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 10px;
+}
+
+.discount {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.description {
+    font-size: 12px;
+    color: #555;
+}
 footer {
-    border: 2px solid orange;
+    
     height: 45px;
     background: #fd7685;
     text-align: center;
